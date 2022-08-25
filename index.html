@@ -2,431 +2,579 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Excession Management Portal</title>
+    <title>Excession Development Management Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/00afc157f3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
   </head>
   <body>
-    <div class="container">
-      <h1>Excession Management Portal</h1>
-      <details>
-        <summary>Identity and Access Management</summary>
-        <section class="cards">
-          <a
-            href="https://excs-s5210.excession.org/admin/info"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-id-card"></i></div>
-            <div class="card__content">
-              <div class="card__title">
-                Advanced Authentication Administration
-              </div>
-              <div class="card__snippet">
-                Administer people and policies for Multi-factor authentication
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5210.excession.org:9443/"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-cogs"></i></div>
-            <div class="card__content">
-              <div class="card__title">
-                Advanced Authentication Configuration
-              </div>
-              <div class="card__snippet">
-                Configure the Advanced Authentication Appliance
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5210.excession.org/account/auth"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-user-plus"></i></div>
-            <div class="card__content">
-              <div class="card__title">Advanced Authentication Enrollment</div>
-              <div class="card__snippet">Enroll users for MFA!</div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5220.excession.org:8443/nps/servlet/portalservice"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-user-shield"></i></div>
-            <div class="card__content">
-              <div class="card__title">Access Manager Administration</div>
-              <div class="card__snippet">
-                Administer access to systems for all users
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5220.excession.org/portal/"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fab fa-hubspot"></i></div>
-            <div class="card__content">
-              <div class="card__title">Access Manager Portal</div>
-              <div class="card__snippet">
-                Access across your Intranet and cloud-based services for all your users
-              </div>
-            </div>
-          </a>
-          <a
-            href="http://excs-s5200.excession.org/index.html"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fa-light fa-chart-candlestick"></i></div>
-            <div class="card__content">
-              <div class="card__title">Access Manager Testing Portal</div>
-              <div class="card__snippet">
-                Administrative testing portal to Access Manager
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://192.168.2.141:8543/osp/a/idm/auth/oauth2/grant?redirect_uri=https://192.168.2.141:8543/idmdash/oauth.html&client_id=idmdash&response_type=code"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-passport"></i></div>
-            <div class="card__content">
-              <div class="card__title">Identity Access Portal</div>
-              <div class="card__snippet">
-                Request access to network resources
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://192.168.2.141:8543/idmadmin/#/role"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fa-thin fa-users-gear"></i></div>
-            <div class="card__content">
-              <div class="card__title">Identity Access Administration</div>
-              <div class="card__snippet">Administer identity access</div>
-            </div>
-          </a>
-          <div class="card">
-            <div class="card__image"><i class="fa-light fa-monitor-waveform"></i></div>
-            <div class="card__content">
-              <div class="card__title">Identity Vault iMonitor</div>
-              <div class="card__snippet">
-                Monitor the health of eDirectory on:
-                <div class="card__links">
-                  <a href="https://excs-s4140.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s4140</a>
-                  <a href="https://excs-s4141.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s4141</a>
+    <main>
+      <div class="container">
+        <h2>Excession Development Management Portal</h2>
+        <div class="accordion" id="accordion1">
+          <button class="accordion-btn">Identity and Access Management</button>
+          <div class="accordion-panel">
+            <a
+              href="https://excs-s4140.excession.org:8443/nps/servlet/portalservice"
+              class="card"
+            >
+              <div class="card__image"><i class="fad fa-tasks"></i></div>
+              <div class="card__content">
+                <div class="card__title">Identity Vault iManager</div>
+                <div class="card__snippet">
+                  eDirectory Administration for the ID Vault using NetIQ iManager 3.2.6
                 </div>
               </div>
-            </div>
-          </div>
-          <a
-            href="https://excs-s4140.excession.org:8443/nps/servlet/portalservice"
-            class="card"
-          >
-            <div class="card__image"><i class="fad fa-tasks"></i></div>
-            <div class="card__content">
-              <div class="card__title">Identity Vault iManager</div>
-              <div class="card__snippet">
-                eDirectory Administration for the ID Vault using NetIQ iManager 3.2.6
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s4140.excession.org:9000/identityconsole/login.html"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fa-light fa-diagram-subtask"></i></div>
-            <div class="card__content">
-              <div class="card__title">Identity Vault Identity Console</div>
-              <div class="card__snippet">
-                eDirectory & IDM Administration for the ID Vault using the new Identity Console
-              </div>
-            </div>
-          </a>
-        </section>
-      </details>
-      <details>
-        <summary>File and Print Services</summary>
-        <section class="cards">
-          <a
-            href="https://excs-s5205.excession.org/nps/servlet/portalservice"
-            class="card"
-          >
-            <div class="card__image"><i class="fad fa-tasks"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession Tree iManager</div>
-              <div class="card__snippet">
-                Manage OES Services and eDirectory for the Excession Tree
-              </div>
-            </div>
-          </a>
-          <div class="card">
-            <div class="card__image"><i class="fa-light fa-monitor-waveform"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession Tree iMonitor</div>
-              <div class="card__snippet">
-                Monitor the health of eDirectory on:
-                <div class="card__links">
-                  <a href="https://excs-s5205.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5205</a>
-                  <a href="https://excs-s5206.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5206</a>
-                  <a href="https://excs-s5207.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5207</a>
+            </a>
+            <a
+              href="https://excs-s4140.excession.org:9000/identityconsole/login.html"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fa-light fa-diagram-subtask"></i></div>
+              <div class="card__content">
+                <div class="card__title">Identity Vault Identity Console</div>
+                <div class="card__snippet">
+                  eDirectory & IDM Administration for the ID Vault using the new Identity Console
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__image"><i class="fas fa-circle-notch"></i></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession OES Remote Manager</div>
-              <div class="card__snippet">
-                Manage OES services on:
-                <div class="card__links">
-                  <a href="https://excs-s5205.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5205</a>
-                  <a href="https://excs-s5206.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5206</a>
-                  <a href="https://excs-s5207.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5207</a>
+            </a>
+            <a
+              href="https://excs-s5210.excession.org/admin/info"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-id-card"></i></div>
+              <div class="card__content">
+                <div class="card__title">
+                  Advanced Authentication Administration
                 </div>
-                
-              </div>
-            </div>
-          </div>
-          <a href="http://excs-s5206.excession.org/print/printers" target="_blank" class="card">
-            <div class="card__image"><i class="fa-thin fa-print"></i></div>
-            <div class="card__title">Excession iPrint Portal</div>
-            <div class="card__snippet">
-              Install your closest printer
-            </div>
-          </a>
-          <a href="http://excs-s5206.excession.org/ippdocs/maptool.htm" target="_blank" class="card">
-            <div class="card__image"><i class="fas fa-map-marked-alt"></i></div>
-            <div class="card__title">Excession iPrint Map Designer</div>
-            <div class="card__snippet">
-              Create or update the map to locate all corporate printers on a floor plan
-            </div>
-          </a>
-          <a
-            href="https://excs-s5151.excession.org:8443/ssf/a/do?p_name=ss_forum&p_action=1&action=__login&refererUrl=https%3A%2F%2Fexcs-s5151.excession.org%3A8443%2Fssf%2Fa%2Fc%2Fp_name%2Fss_forum%2Fp_action%2F1%2FshowWhatsNew%2F1%2FentityType%2Fuser%2Faction%2Fview_permalink%2FentryId%2Fss_user_id_place_holder%2Fnovl_url%2F1%2Fnovl_root%2F1"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image">
-              <i class="fas fa-compress-arrows-alt"></i>
-            </div>
-            <div class="card__content">
-              <div class="card__title">Excession Vibe</div>
-              <div class="card__snippet">
-                Enterprise Collaboration Tools for individuals and Teams alike
-              </div>
-            </div>
-          </a>
-        </section>
-      </details>
-      <details>
-        <summary>Email Services</summary>
-        <section class="cards">
-          <a
-            href="https://excs-s5150.excession.org:9710/gwadmin-console/login.jsp"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-users-cog"></i></div>
-            <div class="card__content">
-              <div class="card__title">GroupWise Administration</div>
-              <div class="card__snippet">
-                Administer the GroupWise Mail System
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5150.excession.org/gw/webacc"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-at"></i></div>
-            <div class="card__content">
-              <div class="card__title">GroupWise WebAccess</div>
-              <div class="card__snippet">Login and check for new mail</div>
-            </div>
-          </a>
-          <a href="#" class="card">
-            <div class="card__image"><i class="far fa-calendar-alt"></i></div>
-            <div class="card__content">
-              <div class="card__title">GroupWise Calendar</div>
-              <div class="card__snippet">
-                Login and check your calendar - Not yet Operational!
-              </div>
-            </div>
-          </a>
-        </section>
-      </details>
-      <details>
-        <summary>Virtualization Management</summary>
-        <section class="cards">
-          <a
-            href="https://greyarea.excession.org/ui/#/login"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image"><i class="fas fa-server"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession Virtualization</div>
-              <div class="card__snippet">
-                ESXi Server hosting virtual machines
-              </div>
-            </div>
-          </a>
-        </section>
-      </details>
-      <details>
-        <summary>OES Development & Deployment Resources</summary>
-        <section class="cards">
-          <a
-            href="https://excs-s5211.excession.org/welcome/deployment-resources.html"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image">
-              <i class="fas fa-project-diagram"></i>
-            </div>
-            <div class="card__content">
-              <div class="card__title">OES Deployment Resources</div>
-              <div class="card__snippet">
-                Deploy OES2018 SP3
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5211.excession.org/welcome/upgrade-resources.html"
-            target="_blank"
-            class="card"
-          >
-            <div class="card__image">
-              <i class="fas fa-project-diagram"></i>
-            </div>
-            <div class="card__content">
-              <div class="card__title">OES Upgrade Resources</div>
-              <div class="card__snippet">
-                Upgrade OES2015 SP1 to OES2018 SP3
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5219.excession.org:8443/nps/servlet/portalservice"
-            class="card"
-          >
-            <div class="card__image"><i class="fad fa-tasks"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession DEV0 iManager</div>
-              <div class="card__snippet">
-                Manage OES and eDirectory on excs-s5219 for the tree: EXCS-DEV0
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5219.excession.org:8443/nps/servlet/portalservice"
-            class="card"
-          >
-            <div class="card__image"><i class="fad fa-tasks"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession DEV1 iManager</div>
-              <div class="card__snippet">
-                Manage OES and eDirectory on excs-s5219 for the tree: EXCS-DEV1
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5228.excession.org:8443/nps/servlet/portalservice"
-            class="card"
-          >
-            <div class="card__image"><i class="fad fa-tasks"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession DEV2 iManager</div>
-              <div class="card__snippet">
-                Manage OES and eDirectory on excs-s5228 for the tree: EXCS-DEV2,
-                make sure you include 1524 in the tree/ip address field
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://excs-s5228.excession.org:8443/nps/servlet/portalservice"
-            class="card"
-          >
-            <div class="card__image"><i class="fad fa-tasks"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession DEV3 iManager</div>
-              <div class="card__snippet">
-                Manage OES and eDirectory on excs-s5228 for the tree: EXCS-DEV3,
-                make sure you include 2524 in the tree/ip address field
-              </div>
-            </div>
-          </a>
-          <div class="card">
-            <div class="card__image"><i class="fa-light fa-monitor-waveform"></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession Development Tree iMonitor</div>
-              <div class="card__snippet">
-                Monitor the health of eDirectory on:
-                <div class="card__links">
-                  <a href="https://excs-s5211.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5211</a>
-                  <a href="https://excs-s5212.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5212</a>
-                  <a href="https://excs-s5213.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5213</a>
+                <div class="card__snippet">
+                  Administer people and policies for Multi-factor authentication
                 </div>
-                <div class="card__links">
-                  
+              </div>
+            </a>
+            <a
+              href="https://excs-s5210.excession.org:9443/"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-cogs"></i></div>
+              <div class="card__content">
+                <div class="card__title">
+                  Advanced Authentication Configuration
                 </div>
+                <div class="card__snippet">
+                  Configure the Advanced Authentication Appliance
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5210.excession.org/account/auth"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-user-plus"></i></div>
+              <div class="card__content">
+                <div class="card__title">Advanced Authentication Enrollment</div>
+                <div class="card__snippet">Enroll users for MFA!</div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5220.excession.org:8443/nps/servlet/portalservice"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-user-shield"></i></div>
+              <div class="card__content">
+                <div class="card__title">Access Manager Administration</div>
+                <div class="card__snippet">
+                  Administer access to systems for all users
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5220.excession.org/portal/"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fab fa-hubspot"></i></div>
+              <div class="card__content">
+                <div class="card__title">Access Manager Portal</div>
+                <div class="card__snippet">
+                  Access across your Intranet and cloud-based services for all your users
+                </div>
+              </div>
+            </a>
+            <a
+              href="http://excs-s5200.excession.org/index.html"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fa-light fa-chart-candlestick"></i></div>
+              <div class="card__content">
+                <div class="card__title">Access Manager Testing Portal</div>
+                <div class="card__snippet">
+                  Administrative testing portal to Access Manager
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://192.168.2.141:8543/osp/a/idm/auth/oauth2/grant?redirect_uri=https://192.168.2.141:8543/idmdash/oauth.html&client_id=idmdash&response_type=code"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-passport"></i></div>
+              <div class="card__content">
+                <div class="card__title">Identity Access Portal</div>
+                <div class="card__snippet">
+                  Request access to network resources
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://192.168.2.141:8543/idmadmin/#/role"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fa-thin fa-users-gear"></i></div>
+              <div class="card__content">
+                <div class="card__title">Identity Access Administration</div>
+                <div class="card__snippet">Administer identity access</div>
+              </div>
+            </a>
+            <div class="card">
+              <div class="card__image"><i class="fa-light fa-monitor-waveform"></i></div>
+              <div class="card__content">
+                <div class="card__title">Identity Vault iMonitor</div>
+                <div class="card__snippet">
+                  Monitor the health of eDirectory on:
                   <div class="card__links">
-                    <a href="https://excs-s5219.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5219 (DEV0)</a>
-                  <a href="https://excs-s5219.excession.org:18030/_LOGIN_SERVER_" target="_blank">excs-s5219 (DEV1)</a>
-                </div>
-                <div class="card__links">
-                  <a href="https://excs-s5228.excession.org:28030/_LOGIN_SERVER_" target="_blank">excs-s5228 (DEV2)</a>
-                  <a href="https://excs-s5228.excession.org:38030/_LOGIN_SERVER_" target="_blank">excs-s5228 (DEV3)</a>
+                    <a href="https://excs-s4140.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s4140</a>
+                    <a href="https://excs-s4141.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s4141</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card__image"><i class="fas fa-circle-notch"></i></i></div>
-            <div class="card__content">
-              <div class="card__title">Excession Development Tree OES Remote Manager</div>
+          <button class="accordion-btn">OES File and Print Services</button>
+          <div class="accordion-panel">
+            <a
+              href="https://excs-s5205.excession.org/nps/servlet/portalservice"
+              class="card"
+            >
+              <div class="card__image"><i class="fad fa-tasks"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession Tree iManager</div>
+                <div class="card__snippet">
+                  Manage OES Services and eDirectory for the Excession Tree
+                </div>
+              </div>
+            </a>
+            <div class="card">
+              <div class="card__image"><i class="fa-light fa-monitor-waveform"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession Tree iMonitor</div>
+                <div class="card__snippet">
+                  Monitor the health of eDirectory on:
+                  <div class="card__links">
+                    <a href="https://excs-s5205.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5205</a>
+                    <a href="https://excs-s5206.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5206</a>
+                    <a href="https://excs-s5207.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5207</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__image"><i class="fas fa-circle-notch"></i></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession OES Remote Manager</div>
+                <div class="card__snippet">
+                  Manage OES services on:
+                  <div class="card__links">
+                    <a href="https://excs-s5205.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5205</a>
+                    <a href="https://excs-s5206.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5206</a>
+                    <a href="https://excs-s5207.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5207</a>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+            <a href="http://excs-s5206.excession.org/print/printers" target="_blank" class="card">
+              <div class="card__image"><i class="fa-thin fa-print"></i></div>
+              <div class="card__title">Excession iPrint Portal</div>
               <div class="card__snippet">
-                Manage OES services on:
-                <div class="card__links">
-                  <a href="https://excs-s5211.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5211</a>
-                  <a href="https://excs-s5212.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5212</a>
-                  <a href="https://excs-s5213.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5213</a>
+                Install your closest printer
+              </div>
+            </a>
+            <a href="http://excs-s5206.excession.org/ippdocs/maptool.htm" target="_blank" class="card">
+              <div class="card__image"><i class="fas fa-map-marked-alt"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession iPrint Map Designer</div>
+                <div class="card__snippet">
+                  Create or update the map to locate all corporate printers on a floor plan
                 </div>
-                <div class="card__links">
+              </div>
+            </a>
+            <a
+              href="https://excs-s5151.excession.org:8443/ssf/a/do?p_name=ss_forum&p_action=1&action=__login&refererUrl=https%3A%2F%2Fexcs-s5151.excession.org%3A8443%2Fssf%2Fa%2Fc%2Fp_name%2Fss_forum%2Fp_action%2F1%2FshowWhatsNew%2F1%2FentityType%2Fuser%2Faction%2Fview_permalink%2FentryId%2Fss_user_id_place_holder%2Fnovl_url%2F1%2Fnovl_root%2F1"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image">
+                <i class="fas fa-compress-arrows-alt"></i>
+              </div>
+              <div class="card__content">
+                <div class="card__title">Excession Vibe</div>
+                <div class="card__snippet">
+                  Enterprise Collaboration Tools for individuals and Teams alike
+                </div>
+              </div>
+            </a>
+            <a href="http://excs-s4130.excession.org/updates" target="_blank" class="card">
+              <div class="card__image"><i class="fal fa-vest-patches"></i></div>
+              <div class="card__content">
+                <div class="card__title">OES Patches</div>
+                <div class="card__snippet">Patches for OES, ZENworks, SSPR, Access Manager, and Advanced Authentication</div>
+              </div>
+            </a>
+          </div>
+          <button class="accordion-btn">GroupWise Email Services</button>
+          <div class="accordion-panel">
+            <a
+              href="https://excs-s5150.excession.org:9710/gwadmin-console/login.jsp"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-users-cog"></i></div>
+              <div class="card__content">
+                <div class="card__title">GroupWise Administration</div>
+                <div class="card__snippet">
+                  Administer the GroupWise Mail System
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5150.excession.org/gw/webacc"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-at"></i></div>
+              <div class="card__content">
+                <div class="card__title">GroupWise WebAccess</div>
+                <div class="card__snippet">Login and check for new mail</div>
+              </div>
+            </a>
+            <a href="#" class="card">
+              <div class="card__image"><i class="far fa-calendar-alt"></i></div>
+              <div class="card__content">
+                <div class="card__title">GroupWise Calendar</div>
+                <div class="card__snippet">
+                  Login and check your calendar - Not yet Operational!
+                </div>
+              </div>
+            </a>
+          </div>
+          <button class="accordion-btn">VMWare Virtualization Management</button>
+          <div class="accordion-panel">
+            <a
+              href="https://greyarea.excession.org/ui/#/login"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image"><i class="fas fa-server"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession Virtualization</div>
+                <div class="card__snippet">
+                  ESXi Server hosting virtual machines
+                </div>
+              </div>
+            </a>
+          </div>
+          <button class="accordion-btn">OES Development and Deployment Resources</button>
+          <div class="accordion-panel">
+            <a
+              href="https://excs-s5211.excession.org/welcome/deployment-resources.html"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image">
+                <i class="fas fa-project-diagram"></i>
+              </div>
+              <div class="card__content">
+                <div class="card__title">OES Deployment Resources</div>
+                <div class="card__snippet">
+                  Deploy OES2018 SP3
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5211.excession.org/welcome/upgrade-resources.html"
+              target="_blank"
+              class="card"
+            >
+              <div class="card__image">
+                <i class="fas fa-project-diagram"></i>
+              </div>
+              <div class="card__content">
+                <div class="card__title">OES Upgrade Resources</div>
+                <div class="card__snippet">
+                  Upgrade OES2015 SP1 to OES2018 SP3
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5219.excession.org:8443/nps/servlet/portalservice"
+              class="card"
+            >
+              <div class="card__image"><i class="fad fa-tasks"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession DEV0 iManager</div>
+                <div class="card__snippet">
+                  Manage OES and eDirectory on excs-s5219 for the tree: EXCS-DEV0
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5219.excession.org:8443/nps/servlet/portalservice"
+              class="card"
+            >
+              <div class="card__image"><i class="fad fa-tasks"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession DEV1 iManager</div>
+                <div class="card__snippet">
+                  Manage OES and eDirectory on excs-s5219 for the tree: EXCS-DEV1
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5228.excession.org:8443/nps/servlet/portalservice"
+              class="card"
+            >
+              <div class="card__image"><i class="fad fa-tasks"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession DEV2 iManager</div>
+                <div class="card__snippet">
+                  Manage OES and eDirectory on excs-s5228 for the tree: EXCS-DEV2,
+                  make sure you include 1524 in the tree/ip address field
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://excs-s5228.excession.org:8443/nps/servlet/portalservice"
+              class="card"
+            >
+              <div class="card__image"><i class="fad fa-tasks"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession DEV3 iManager</div>
+                <div class="card__snippet">
+                  Manage OES and eDirectory on excs-s5228 for the tree: EXCS-DEV3,
+                  make sure you include 2524 in the tree/ip address field
+                </div>
+              </div>
+            </a>
+            <div class="card">
+              <div class="card__image"><i class="fa-light fa-monitor-waveform"></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession Development Tree iMonitor</div>
+                <div class="card__snippet">
+                  Monitor the health of eDirectory on:
+                  <div class="card__links">
+                    <a href="https://excs-s5211.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5211</a>
+                    <a href="https://excs-s5212.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5212</a>
+                    <a href="https://excs-s5213.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5213</a>
+                  </div>
+                  <div class="card__links">
+      
+                  </div>
+                    <div class="card__links">
+                      <a href="https://excs-s5219.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5219 (DEV0)</a>
+                    <a href="https://excs-s5219.excession.org:18030/_LOGIN_SERVER_" target="_blank">excs-s5219 (DEV1)</a>
+                  </div>
+                  <div class="card__links">
+                    <a href="https://excs-s5228.excession.org:28030/_LOGIN_SERVER_" target="_blank">excs-s5228 (DEV2)</a>
+                    <a href="https://excs-s5228.excession.org:38030/_LOGIN_SERVER_" target="_blank">excs-s5228 (DEV3)</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__image"><i class="fas fa-circle-notch"></i></i></div>
+              <div class="card__content">
+                <div class="card__title">Excession Development Tree OES Remote Manager</div>
+                <div class="card__snippet">
+                  Manage OES services on:
+                  <div class="card__links">
+                    <a href="https://excs-s5211.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5211</a>
+                    <a href="https://excs-s5212.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5212</a>
+                    <a href="https://excs-s5213.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5213</a>
+                  </div>
+                  <div class="card__links">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </details>
-    </div>
-    <div class="container">
-      <div class="links">
-        <a href="http://excs-s4130.excession.org/updates" target="_blank"><i class="fal fa-vest-patches"></i> Patches</a>
-        <a href="https://excs-s5201.excession.org/" target="_blank"><i class="fal fa-blog"></i> Blog</a>
-        <a href="https://192.168.2.141:8543/sspr/private/setup-responses" target="_blank"><i class="fal fa-passport"></i> Self Service Password Recovery</a>
+          <button class="accordion-btn">Excession Development Resources</button>
+          <div class="accordion-panel">
+            <a href="https://excs-s5201.excession.org/" target="_blank" class="card">
+              <div class="card__image"><i class="fal fa-blog"></i></div>
+              <div class="card__content">
+                <div class="card__title">Blog</div>
+                <div class="card__snippet">Internal Django blog for development related articles</div>
+              </div>
+            </a>
+            <a href="https://davidrobb2021.tech/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-image-portrait"></i></div>
+              <div class="card__content">
+                <div class="card__title">My Portfolio</div>
+                <div class="card__snippet">Personal Portfolio Website</div>
+              </div>
+            </a>
+            <a href="https://abigailportfolio.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-image-portrait"></i></div>
+              <div class="card__content">
+                <div class="card__title">Abigail's Portfolio/Blog</div>
+                <div class="card__snippet">A Simple Portfolio website for my dog</div>
+              </div>
+            </a>
+            <a href="https://flaskerdrobb.herokuapp.com/" target="_blank" class="card">
+              <div class="card__image"><i class="fal fa-blog"></i></div>
+              <div class="card__content">
+                <div class="card__title">Flasker Blog</div>
+                <div class="card__snippet">External Flask blog</div>
+              </div>
+            </a>
+            <a href="https://drobb2020.github.io/digital-resume/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-image-portrait"></i></div>
+              <div class="card__content">
+                <div class="card__title">My Digital Resume</div>
+                <div class="card__snippet">An up-to-date digital resume hosted on github pages.</div>
+              </div>
+            </a>
+            <a href="https://davidrobb-bs5-react-page.mdbgo.io/" target="_blank" class="card">
+              <div class="card__image"><i class="fal fa-blog"></i></div>
+              <div class="card__content">
+                <div class="card__title">React Demo Blog</div>
+                <div class="card__snippet">A demonstration blog site using React and MDBgo.</div>
+              </div>
+            </a>
+            <a href="https://davidrobb-mdb5-free-react.mdbgo.io/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-cash-register"></i></div>
+              <div class="card__content">
+                <div class="card__title">React Demo eCommerce</div>
+                <div class="card__snippet">a demonstration eCommerce site using React and MDBgo.</div>
+              </div>
+            </a>
+            <a href="https://magenta-unicorn-ba6e6a.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-shirt"></i></div>
+              <div class="card__content">
+                <div class="card__title">Base Apparel</div>
+                <div class="card__snippet">Frontend Mentor challenge.</div>
+              </div>
+            </a>
+            <a href="https://superlative-hummingbird-4d3dac.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-cards-blank"></i></div>
+              <div class="card__content">
+                <div class="card__title">Four Card Feature Section</div>
+                <div class="card__snippet">Frontend Mentor challenge.</div>
+              </div>
+            </a>
+            <a href="https://teal-begonia-502d6b.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-brands fa-wpforms"></i></div>
+              <div class="card__content">
+                <div class="card__title">Signup Form</div>
+                <div class="card__snippet">Frontend Mentor challenge.</div>
+              </div>
+            </a>
+            <a href="https://comforting-cat-e32074.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-qrcode"></i></div>
+              <div class="card__content">
+                <div class="card__title">QR Code</div>
+                <div class="card__snippet">Frontend Mentor challenge.</div>
+              </div>
+            </a>
+            <a href="https://relaxed-bell-1f0735.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-cloud-check"></i></div>
+              <div class="card__content">
+                <div class="card__title">Moshify</div>
+                <div class="card__snippet">A demonstration page for web hosting.</div>
+              </div>
+            </a>
+            <a href="https://6182ab6e0ac571fe22a0d62a--boring-nobel-8b5363.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-notes"></i></div>
+              <div class="card__content">
+                <div class="card__title">My Notes App</div>
+                <div class="card__snippet">A simple note taking application</div>
+              </div>
+            </a>
+            <a href="https://next-js-tutorial-drobb2020.vercel.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-list-ul"></i></div>
+              <div class="card__content">
+                <div class="card__title">Ninja List</div>
+                <div class="card__snippet">A Net Ninja tutorial using next.js</div>
+              </div>
+            </a>
+            <a href="https://root-weather-app-v1.herokuapp.com/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-sun"></i></div>
+              <div class="card__content">
+                <div class="card__title">Weather App</div>
+                <div class="card__snippet">A simple weather application</div>
+              </div>
+            </a>
+            <a href="https://inspiring-archimedes-b42227.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-list-check"></i></div>
+              <div class="card__content">
+                <div class="card__title">Notion CMS</div>
+                <div class="card__snippet">A landing page to Notion tasks</div>
+              </div>
+            </a>
+            <a href="https://davidrobb-fancy_svg_shapes.mdbgo.io/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-shapes"></i></div>
+              <div class="card__content">
+                <div class="card__title">Fancy SVG Shapes</div>
+                <div class="card__snippet">a demonstration site using React and MDBgo.</div>
+              </div>
+            </a>
+            <a href="https://vibrant-yalow-39f59a.netlify.app/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-face-grin-tongue-wink"></i></div>
+              <div class="card__content">
+                <div class="card__title">Tasteless Dad Jokes</div>
+                <div class="card__snippet">The title says it all.</div>
+              </div>
+            </a>
+            <a href="http://oneexcessionlab.tech/" target="_blank" class="card">
+              <div class="card__image"><i class="fa-solid fa-image-portrait"></i></div>
+              <div class="card__content">
+                <div class="card__title">Earlier Portfolio Website</div>
+                <div class="card__snippet">An earlier attempt at a portfolio website.</div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="container">
+        <div class="links">
+          <a href="https://192.168.2.141:8543/sspr/private/setup-responses" target="_blank"><i class="fal fa-passport"></i> Self Service Password Recovery</a>
+        </div>
+      </div>
+    </main>
 
     <footer>
       <h4>Copyright &copy; 2022 | Excession Development</h4>
     </footer>
-    <script src="./js/app.js"></script>
+    <script type="module">
+      import createAccordion from './js/accordion.js';
+
+      createAccordion('#accordion1', {
+        onePanelOnly: true,
+        firstExpanded: false,
+      });
+      createAccordion('#accordion2', {
+        onePanelOnly: true,
+        firstExpanded: false,
+      });
+    </script>
   </body>
 </html>
