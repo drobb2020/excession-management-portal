@@ -45,7 +45,7 @@ body {
   background: -webkit-linear-gradient(138deg, #4286f4, #384751);
   background: linear-gradient(138deg, #4286f4, #384751);
   font-family: 'Raleway', sans-serif;
-  min-height: 100vh;
+  min-height: 110vh;
   overflow-y: scroll;
 }
 
@@ -56,8 +56,7 @@ main {
   // align-content: center;
   color: hsl(var(--text));
   padding: clamp(1rem, 1.5vw, 2rem);
-  min-height: 100vh;
-  margin-bottom: -50px;
+  min-height: 110vh;
 }
 
 .container {
@@ -66,7 +65,7 @@ main {
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(1.5rem, 4vw, 3rem);
   line-height: 1.1;
   font-weight: 700;
   color: hsl(240, 5%, 96%);
@@ -165,18 +164,5 @@ a:is(:link, :visited){
     text-transform: uppercase;
     color: hsl(240, 5%, 96%);
     text-align: center;
-  }
-}
-
-footer {
-  position: flex;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  h4 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: hsl(240, 5%, 96%);
   }
 }

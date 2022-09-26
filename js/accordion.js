@@ -16,7 +16,7 @@
         background-color: hsl(var(--surface));
         border: 1px solid transparent;
         border-radius: .5rem;
-        font-size: clamp(2rem, 3vw, 3rem);
+        font-size: clamp(1rem, 3vw, 2rem);
         box-shadow: var(--shadow-elevation-medium);
         cursor: pointer;
         transition: background-color 250ms ease-in-out, border 250ms ease-in-out;
