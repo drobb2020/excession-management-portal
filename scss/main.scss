@@ -73,6 +73,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.accordion-btn img {
+  width: 50px;
+}
+
 a:is(:link, :visited){
   color: hsl(var(--text));
 }
