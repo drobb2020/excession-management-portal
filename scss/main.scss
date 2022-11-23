@@ -41,9 +41,12 @@ html {
 }
 
 body {
-  background: #384751;
-  background: -webkit-linear-gradient(138deg, #4286f4, #384751);
-  background: linear-gradient(138deg, #4286f4, #384751);
+  // background: #384751;
+  // background: -webkit-linear-gradient(138deg, #4286f4, #384751);
+  // background: linear-gradient(138deg, #4286f4, #384751);
+  background: #9fa4c4;
+  background: -webkit-linear-gradient(to right, #9fa4c4, #B3CDD1);
+  background: linear-gradient(to right, #9fa4c4, #B3CDD1);
   font-family: 'Raleway', sans-serif;
   min-height: 110vh;
   overflow-y: scroll;
@@ -68,7 +71,7 @@ h2 {
   font-size: clamp(1.5rem, 4vw, 3rem);
   line-height: 1.1;
   font-weight: 700;
-  color: hsl(240, 5%, 96%);
+  color: hsl(var(--text));
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -87,9 +90,12 @@ a:is(:link, :visited){
   flex: 1 0 250px;
   max-width: 350px;
   overflow: hidden;
-  background: hsl(205, 18%, 27%); /* fallback for old browsers */
-  background: linear-gradient(138deg, rgba(56, 70, 80, 0.8) 0%, rgba(3, 20, 80, 0.5) 50%, #24384d 100%);
-  color: hsl(240, 5%, 96%);
+  // background: hsl(205, 18%, 27%); /* fallback for old browsers */
+  // background: linear-gradient(138deg, rgba(56, 70, 80, 0.8) 0%, rgba(3, 20, 80, 0.5) 50%, #24384d 100%);
+  background: #9fa4c4;
+  // background: -webkit-linear-gradient(to right, #9fa4c4, #B3CDD1);
+  // background: linear-gradient(to right, #9fa4c4, #B3CDD1);
+  color: hsl(240, 1%, 57%);
   border-radius: .5rem;
   border: 1px solid #000;
   box-shadow: 0 0.5rem 1rem hsl(311, 5%, 55%);
