@@ -41,9 +41,7 @@ html {
 }
 
 body {
-  background: #9fa4c4;
-  background: -webkit-gradient(linear, left top, right top, from(#9fa4c4), to(#B3CDD1));
-  background: linear-gradient(to right, #9fa4c4, #B3CDD1);
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   font-family: "Raleway", sans-serif;
   min-height: 110vh;
   overflow-y: scroll;
@@ -93,8 +91,8 @@ a:is(:link, :visited) {
           flex: 1 0 250px;
   max-width: 350px;
   overflow: hidden;
-  background: #9fa4c4;
-  color: hsl(240deg, 1%, 57%);
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: hsl(240deg, 35%, 15%);
   border-radius: 0.5rem;
   border: 1px solid #000;
   -webkit-box-shadow: 0 0.5rem 1rem hsl(311deg, 5%, 55%);
@@ -114,7 +112,7 @@ a:is(:link, :visited) {
   font-size: 5rem;
   padding: 1rem;
   margin: 1rem auto;
-  color: hsl(240deg, 5%, 96%);
+  color: hsl(240deg, 35%, 15%);
 }
 .card__content {
   display: -webkit-box;
@@ -128,14 +126,14 @@ a:is(:link, :visited) {
   padding: 1rem;
 }
 .card__title {
-  color: hsl(240deg, 5%, 96%);
+  color: hsl(240deg, 35%, 15%);
   font-size: clamp(1.5rem, 4vw, 2.75rem);
   font-weight: 700;
   margin-bottom: 0.5rem;
   text-align: center;
 }
 .card__snippet {
-  color: hsl(240deg, 5%, 96%);
+  color: hsl(240deg, 35%, 15%);
   font-size: clamp(1.25rem, 4vw, 1.75rem);
   margin-bottom: 0.5rem;
   text-align: center;
