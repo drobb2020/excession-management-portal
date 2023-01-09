@@ -15,10 +15,10 @@ html {
 }
 
 :root {
-  --hue: 225;
+  --hue: 234;
   --background: var(--hue) 85.7% 89%;
   --surface: var(--hue) 100% 98.5%;
-  --text: var(--hue) 58% 8.5%;
+  --text: var(--hue) 60% 21%;
   --shadow-color: var(--hue) 34% 56%;
   --shadow-elevation-low:
     0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
@@ -92,7 +92,7 @@ a:is(:link, :visited) {
   max-width: 350px;
   overflow: hidden;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  color: hsl(240deg, 35%, 15%);
+  color: var(--text);
   border-radius: 0.5rem;
   border: 1px solid #000;
   -webkit-box-shadow: 0 0.5rem 1rem hsl(311deg, 5%, 55%);
@@ -112,7 +112,7 @@ a:is(:link, :visited) {
   font-size: 5rem;
   padding: 1rem;
   margin: 1rem auto;
-  color: hsl(240deg, 35%, 15%);
+  color: var(--text);
 }
 .card__content {
   display: -webkit-box;
@@ -126,14 +126,14 @@ a:is(:link, :visited) {
   padding: 1rem;
 }
 .card__title {
-  color: hsl(240deg, 35%, 15%);
+  color: var(--text);
   font-size: clamp(1.5rem, 4vw, 2.75rem);
   font-weight: 700;
   margin-bottom: 0.5rem;
   text-align: center;
 }
 .card__snippet {
-  color: hsl(240deg, 35%, 15%);
+  color: var(--text);
   font-size: clamp(1.25rem, 4vw, 1.75rem);
   margin-bottom: 0.5rem;
   text-align: center;
