@@ -3,7 +3,7 @@
 <!-- ![img](./images/logo.png) -->
 <img src="./images/logo.png" alt="logo" width="300"/>
 
-This is my portal webpage to connect to all my servers and services in my lab. Most of these are for work related applications and are located behind a firewall on a private ip network.
+This is my portal webpage to connect to all my servers and services in my lab. Most of these are for work related applications and are located behind a firewall on a private network.
 
 <!-- ![portal](./images/screenshot2023.png) -->
 <img src="./images/screenshot2023-01.png" alt="screenshot" width="650" />
