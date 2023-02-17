@@ -408,7 +408,7 @@
               <div class="card__content">
                 <div class="card__title">OES Deployment Resources</div>
                 <div class="card__snippet">
-                  Deploy OES2018 SP3
+                  Deploy OES2018 SP3 or OES2023
                 </div>
               </div>
             </a>
@@ -424,56 +424,20 @@
                 <div class="card__title">OES Upgrade Resources</div>
                 <div class="card__snippet">
                   Upgrade OES2015 SP1 to OES2018 SP3
+                  <br />
+                  Upgrade OES2018 SP3 to OES2023
                 </div>
               </div>
             </a>
             <a
-              href="https://excs-s5219.excession.org:8443/nps/servlet/portalservice"
+              href="https://excs-s5209.excession.org/nps/servlet/portalservice"
               class="card"
             >
               <div class="card__image"><i class="fad fa-tasks"></i></div>
               <div class="card__content">
                 <div class="card__title">Excession DEV0 iManager</div>
                 <div class="card__snippet">
-                  Manage OES and eDirectory on excs-s5219 for the tree: EXCS-DEV0
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://excs-s5219.excession.org:8443/nps/servlet/portalservice"
-              class="card"
-            >
-              <div class="card__image"><i class="fad fa-tasks"></i></div>
-              <div class="card__content">
-                <div class="card__title">Excession DEV1 iManager</div>
-                <div class="card__snippet">
-                  Manage OES and eDirectory on excs-s5219 for the tree: EXCS-DEV1
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://excs-s5228.excession.org:8443/nps/servlet/portalservice"
-              class="card"
-            >
-              <div class="card__image"><i class="fad fa-tasks"></i></div>
-              <div class="card__content">
-                <div class="card__title">Excession DEV2 iManager</div>
-                <div class="card__snippet">
-                  Manage OES and eDirectory on excs-s5228 for the tree: EXCS-DEV2,
-                  make sure you include 1524 in the tree/ip address field
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://excs-s5228.excession.org:8443/nps/servlet/portalservice"
-              class="card"
-            >
-              <div class="card__image"><i class="fad fa-tasks"></i></div>
-              <div class="card__content">
-                <div class="card__title">Excession DEV3 iManager</div>
-                <div class="card__snippet">
-                  Manage OES and eDirectory on excs-s5228 for the tree: EXCS-DEV3,
-                  make sure you include 2524 in the tree/ip address field
+                  Manage OES and eDirectory on excs-s5209 for the tree: EXCS-DEV0
                 </div>
               </div>
             </a>
@@ -484,20 +448,11 @@
                 <div class="card__snippet">
                   Monitor the health of eDirectory on:
                   <div class="card__links">
+                    <a href="https://excs-s5209.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5209</a>
+                    <a href="https://excs-s5210.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5210</a>
                     <a href="https://excs-s5211.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5211</a>
                     <a href="https://excs-s5212.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5212</a>
                     <a href="https://excs-s5213.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5213</a>
-                  </div>
-                  <div class="card__links">
-
-                  </div>
-                    <div class="card__links">
-                      <a href="https://excs-s5219.excession.org:8030/_LOGIN_SERVER_" target="_blank">excs-s5219 (DEV0)</a>
-                    <a href="https://excs-s5219.excession.org:18030/_LOGIN_SERVER_" target="_blank">excs-s5219 (DEV1)</a>
-                  </div>
-                  <div class="card__links">
-                    <a href="https://excs-s5228.excession.org:28030/_LOGIN_SERVER_" target="_blank">excs-s5228 (DEV2)</a>
-                    <a href="https://excs-s5228.excession.org:38030/_LOGIN_SERVER_" target="_blank">excs-s5228 (DEV3)</a>
                   </div>
                 </div>
               </div>
@@ -509,6 +464,8 @@
                 <div class="card__snippet">
                   Manage OES services on:
                   <div class="card__links">
+                    <a href="https://excs-s5209.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5209</a>
+                    <a href="https://excs-s5210.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5210</a>
                     <a href="https://excs-s5211.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5211</a>
                     <a href="https://excs-s5212.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5212</a>
                     <a href="https://excs-s5213.excession.org:8009/_LOGIN_SERVER_" target="_blank">excs-s5213</a>
@@ -658,6 +615,7 @@
         </div>
       </div>
     </main>
+
     <script type="module">
       import createAccordion from './js/accordion.js';
 
@@ -666,8 +624,8 @@
         firstExpanded: false,
       });
       createAccordion('#accordion2', {
-        onePanelOnly: true,
-        firstExpanded: false,
+        onePanelOnly: false,
+        firstExpanded: true,
       });
     </script>
   </body>
