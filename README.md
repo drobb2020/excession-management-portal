@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/drobb2020/excession-management-portal">
-    <img src="images/logo.png" alt="Logo" width="300">
+    <img src="images/logo.png" alt="Logo" width="200">
   </a>
 
   <h3 align="center">Excession Development Management Portal</h3>
@@ -181,4 +181,4 @@ Thanks to [Coding-in-Public](https://www.youtube.com/@CodinginPublic) for the [t
 [license-url]: https://github.com/drobb2020/excession-management-portal/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot2023-01.png
+[product-screenshot]: images/screenshot2023-02.png
