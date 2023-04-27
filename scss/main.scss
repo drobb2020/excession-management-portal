@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
-
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -45,7 +44,7 @@ body {
   // background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   // background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   font-family: 'Raleway', sans-serif;
-  min-height: 110vh;
+  min-height: 100vh;
   overflow-y: scroll;
 }
 
@@ -54,8 +53,8 @@ main {
   gap: 4rem;
   place-items: center;
   color: hsl(var(--text));
-  padding: clamp(1rem, 1.5vw, 2rem);
-  min-height: 110vh;
+  padding: clamp(1rem, 1rem, 1rem);
+  min-height: 100vh;
 }
 
 .container {
@@ -119,7 +118,7 @@ a:is(:link, :visited){
     color: var(--text);
     font-size: clamp(1.5rem, 4vw, 2.75rem);
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
     text-align: center;
   }
 

@@ -43,7 +43,7 @@ html {
 body {
   background-image: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
   font-family: "Raleway", sans-serif;
-  min-height: 110vh;
+  min-height: 100vh;
   overflow-y: scroll;
 }
 
@@ -52,8 +52,8 @@ main {
   gap: 4rem;
   place-items: center;
   color: hsl(var(--text));
-  padding: clamp(1rem, 1.5vw, 2rem);
-  min-height: 110vh;
+  padding: 1rem;
+  min-height: 100vh;
 }
 
 .container {
@@ -129,7 +129,7 @@ a:is(:link, :visited) {
   color: var(--text);
   font-size: clamp(1.5rem, 4vw, 2.75rem);
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   text-align: center;
 }
 .card__snippet {
