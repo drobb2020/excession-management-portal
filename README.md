@@ -111,7 +111,7 @@ Feel free to clone or download this repository as a model to build your own mana
 
 ## Usage
 
-This website is quite specific on usage as the links connect to Micro Focus software installed in my lab. Feel free to use the framework to build your own management portal/
+This website is quite specific on usage as the links connect to Micro Focus software installed in my lab. Feel free to use the framework to build your own management portal.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
