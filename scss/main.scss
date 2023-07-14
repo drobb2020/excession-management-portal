@@ -40,7 +40,10 @@ html {
 }
 
 body {
-  background-image: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
+  background-color: #118ab2;
+  background-image: linear-gradient(41deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
+
+  // background-image: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
   // background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   // background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   font-family: 'Raleway', sans-serif;
@@ -133,21 +136,22 @@ a:is(:link, :visited){
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-top: 1.25rem;
   a {
     padding: .5rem 1.25rem;
-    margin-right: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 2;
+    font-size: 1.25rem;
+    line-height: 1.2;
     color: hsl(0, 0%, 20%);
     border-radius: 999px;
     box-shadow: 0 0.25rem 0.25rem hsla(0, 0%, 0%, 0.4);
     background-color: hsl(240, 5%, 96%);
     &:hover {
       box-shadow: 0 0.75rem 0.75rem rgba(0, 0, 0, 0.4);
+      background-color: hsl(240, 5%, 90%);
     }
   }
 }
