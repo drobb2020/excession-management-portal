@@ -41,8 +41,9 @@ html {
 }
 
 body {
-  background-color: #118ab2;
-  background-image: linear-gradient(41deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
+  background: #1c92d2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#f2fcfe), to(#1c92d2));
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Raleway", sans-serif;
   min-height: 100vh;
   overflow-y: scroll;
