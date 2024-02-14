@@ -40,9 +40,10 @@ html {
 }
 
 body {
-  background: #1c92d2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // background: #1c92d2;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to right top, #353e3b, #3b4745, #40504f, #465a5a, #4c6366, #536d74, #5c7782, #668190, #778ea4, #8b9bb6, #a3a7c7, #bdb3d6);
   font-family: 'Raleway', sans-serif;
   min-height: 100vh;
   overflow-y: scroll;
