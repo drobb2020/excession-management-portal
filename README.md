@@ -86,6 +86,7 @@ I have so many servers and services in my lab that I decided to create this land
 - [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [CSS (SCSS)](https://sass-lang.com/)
 - [JavaScript](https://www.javascript.com/)
+- [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -148,7 +149,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@davidrobb2](https://twitter.com/davidrobb2) - drobb2011@gmail.com
+Your Name - drobb2011@gmail.com
 
 Project Link: [https://github.com/drobb2020/excession-management-portal](https://github.com/drobb2020/excession-management-portal)
 
@@ -159,10 +160,6 @@ Project Link: [https://github.com/drobb2020/excession-management-portal](https:/
 ## Acknowledgments
 
 Thanks to [Coding-in-Public](https://www.youtube.com/@CodinginPublic) for the [tutorial](https://www.youtube.com/watch?v=AxD9slgNDJI&t=9s) in animating and controlling accordion dropdowns.
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [Img Shields](https://shields.io)
-- [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -181,4 +178,4 @@ Thanks to [Coding-in-Public](https://www.youtube.com/@CodinginPublic) for the [t
 [license-url]: https://github.com/drobb2020/excession-management-portal/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot2023-02.png
+[product-screenshot]: images/screenshot2025-01.png
