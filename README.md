@@ -75,7 +75,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://excs-s5130.excession.org)
+[![Excession Management Portal][product-screenshot]](https://excs-s5130.excession.org)
 
 I have so many servers and services in my lab that I decided to create this landing page so I only have to go a single page to access all of my services. Most of these applications are related to my job as a Solution Support Engineer.
 
@@ -178,4 +178,4 @@ Thanks to [Coding-in-Public](https://www.youtube.com/@CodinginPublic) for the [t
 [license-url]: https://github.com/drobb2020/excession-management-portal/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot2025-01.png
+[product-screenshot]: images/Screenshot2025-01.png
